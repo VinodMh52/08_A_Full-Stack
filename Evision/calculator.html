@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Charging Calculator | EVision</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold fs-3" href="index.html">
+            ⚡ EVision
+        </a>
+
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="evmodels.html">EV Models</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="charging.html">Charging</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" href="calculator.html">Calculator</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+
+<!-- Page Header -->
+<section class="page-header text-center text-white">
+    <div class="container">
+        <h1>EV Charging Calculator</h1>
+        <p>Estimate your electric vehicle charging cost</p>
+    </div>
+</section>
+
+
+<!-- Calculator -->
+<section class="py-5">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+
+                <div class="card calculator-card">
+                    <div class="card-body p-4">
+
+                        <div class="text-center mb-4">
+                            <i class="bi bi-lightning-charge-fill text-warning fs-1"></i>
+
+                            <h2 class="fw-bold mt-2">
+                                Charging Cost Calculator
+                            </h2>
+
+                            <p class="text-muted">
+                                Enter your EV details to estimate charging cost.
+                            </p>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">
+                                Battery Capacity (kWh)
+                            </label>
+
+                            <input type="number"
+                                   class="form-control"
+                                   placeholder="Example: 40">
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">
+                                Current Battery Level (%)
+                            </label>
+
+                            <input type="number"
+                                   class="form-control"
+                                   placeholder="Example: 20">
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">
+                                Target Battery Level (%)
+                            </label>
+
+                            <input type="number"
+                                   class="form-control"
+                                   placeholder="Example: 80">
+                        </div>
+
+
+                        <div class="mb-4">
+                            <label class="form-label fw-bold">
+                                Electricity Cost (₹ / kWh)
+                            </label>
+
+                            <input type="number"
+                                   class="form-control"
+                                   placeholder="Example: 10">
+                        </div>
+
+
+                        <div class="d-grid">
+                            <button class="btn calculator-btn btn-lg">
+                                <i class="bi bi-calculator"></i>
+                                Calculate Cost
+                            </button>
+                        </div>
+
+
+                        <div class="calculator-result mt-4">
+                            <small>Estimated Charging Cost</small>
+
+                            <h2>₹ 0.00</h2>
+
+                            <p class="mb-0">
+                                Enter your details and calculate your estimated cost.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Information -->
+<section class="bg-light py-5">
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-4">
+            Why Use an EV Calculator?
+        </h2>
+
+        <div class="row g-4 text-center">
+
+            <div class="col-md-4">
+                <div class="card feature-card border-0 shadow-sm h-100 p-4">
+
+                    <i class="bi bi-currency-rupee feature-icon"></i>
+
+                    <h5 class="fw-bold mt-3">
+                        Save Money
+                    </h5>
+
+                    <p class="text-muted">
+                        Estimate how much you spend on charging your EV.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card feature-card border-0 shadow-sm h-100 p-4">
+
+                    <i class="bi bi-battery-charging feature-icon"></i>
+
+                    <h5 class="fw-bold mt-3">
+                        Know Your Battery
+                    </h5>
+
+                    <p class="text-muted">
+                        Understand how much energy your EV needs.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card feature-card border-0 shadow-sm h-100 p-4">
+
+                    <i class="bi bi-leaf feature-icon"></i>
+
+                    <h5 class="fw-bold mt-3">
+                        Go Green
+                    </h5>
+
+                    <p class="text-muted">
+                        Make smarter and cleaner transportation decisions.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container py-4">
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <h3>⚡ EVision</h3>
+
+                <p>
+                    Driving innovation towards a cleaner,
+                    smarter and sustainable electric future.
+                </p>
+            </div>
+
+
+            <div class="col-md-2">
+                <h5>Quick Links</h5>
+
+                <a href="index.html">Home</a>
+                <a href="evmodels.html">EV Models</a>
+                <a href="charging.html">Charging</a>
+                <a href="calculator.html">Calculator</a>
+            </div>
+
+
+            <div class="col-md-3">
+                <h5>EV Resources</h5>
+
+                <a href="#">EV Guide</a>
+                <a href="#">Battery Technology</a>
+                <a href="#">Charging Guide</a>
+                <a href="#">EV Benefits</a>
+            </div>
+
+
+            <div class="col-md-3">
+                <h5>Contact Us</h5>
+
+                <p>
+                    <i class="bi bi-envelope text-warning"></i>
+                    info@evision.com
+                </p>
+
+                <p>
+                    <i class="bi bi-telephone text-warning"></i>
+                    +91 98765 43210
+                </p>
+
+                <p>
+                    <i class="bi bi-geo-alt text-warning"></i>
+                    Maharashtra, India
+                </p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="text-center mb-0">
+            © 2026 <strong>EVision</strong> | All Rights Reserved
+        </p>
+
+    </div>
+</footer>
+
+</body>
+</html>

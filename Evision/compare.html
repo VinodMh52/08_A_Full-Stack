@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare EVs | EVision</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold fs-3" href="index.html">⚡ EVision</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="evmodels.html">EV Models</a></li>
+                <li><a class="nav-link active" href="compare.html">Compare</a></li>
+                <li><a class="nav-link" href="charging.html">Charging</a></li>
+                <li><a class="nav-link" href="calculator.html">Calculator</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<!-- Header -->
+<section class="page-header text-center text-white">
+    <div class="container">
+        <h1>Compare Electric Vehicles</h1>
+        <p>Compare EV specifications and find the right vehicle for you.</p>
+    </div>
+</section>
+
+<!-- Introduction -->
+<section class="py-5 text-center">
+    <div class="container">
+        <h2 class="fw-bold">⚡ Choose Your Electric Vehicle</h2>
+        <p class="text-muted">Compare range, battery capacity, performance and vehicle type.</p>
+    </div>
+</section>
+
+<!-- EV Cards -->
+<section class="pb-5">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card vehicle-card h-100 shadow-sm">
+                    <img src="images/ev1.jpg" class="card-img-top" alt="Tata Nexon EV">
+                    <div class="card-body text-center">
+                        <span class="badge bg-warning text-dark mb-2">Popular</span>
+                        <h4 class="fw-bold">Tata Nexon EV</h4>
+                        <p class="text-muted">Smart electric SUV for everyday driving.</p>
+                        <a href="#comparison" class="btn btn-dark">Compare</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card vehicle-card h-100 shadow-sm">
+                    <img src="images/ev2.jpg" class="card-img-top" alt="Hyundai Ioniq 5">
+                    <div class="card-body text-center">
+                        <span class="badge bg-dark mb-2">Premium</span>
+                        <h4 class="fw-bold">Hyundai Ioniq 5</h4>
+                        <p class="text-muted">Premium EV with futuristic design.</p>
+                        <a href="#comparison" class="btn btn-dark">Compare</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card vehicle-card h-100 shadow-sm">
+                    <img src="images/ev3.jpg" class="card-img-top" alt="Tesla Model 3">
+                    <div class="card-body text-center">
+                        <span class="badge bg-danger mb-2">Performance</span>
+                        <h4 class="fw-bold">Tesla Model 3</h4>
+                        <p class="text-muted">High-performance electric sedan.</p>
+                        <a href="#comparison" class="btn btn-dark">Compare</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Comparison Table -->
+<section id="comparison" class="py-5 bg-light">
+    <div class="container">
+
+        <div class="text-center mb-4">
+            <h2 class="fw-bold">EV Comparison</h2>
+            <p class="text-muted">See the major specifications side-by-side.</p>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center align-middle shadow-sm">
+
+                <thead class="table-dark">
+                    <tr>
+                        <th>Specification</th>
+                        <th>⚡ Tata Nexon EV</th>
+                        <th>⚡ Hyundai Ioniq 5</th>
+                        <th>⚡ Tesla Model 3</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>Driving Range</th>
+                        <td><strong>465 KM</strong></td>
+                        <td><strong>481 KM</strong></td>
+                        <td><strong>513 KM</strong></td>
+                    </tr>
+
+                    <tr>
+                        <th>Battery Capacity</th>
+                        <td>40.5 kWh</td>
+                        <td>72.6 kWh</td>
+                        <td>75 kWh</td>
+                    </tr>
+
+                    <tr>
+                        <th>0–100 km/h</th>
+                        <td>6.2 sec</td>
+                        <td>5.2 sec</td>
+                        <td>3.3 sec</td>
+                    </tr>
+
+                    <tr>
+                        <th>Vehicle Type</th>
+                        <td>SUV</td>
+                        <td>Premium SUV</td>
+                        <td>Sedan</td>
+                    </tr>
+
+                    <tr>
+                        <th>Charging</th>
+                        <td>Fast Charging</td>
+                        <td>Ultra Fast Charging</td>
+                        <td>Supercharging</td>
+                    </tr>
+
+                    <tr>
+                        <th>Best For</th>
+                        <td>Daily Driving</td>
+                        <td>Comfort</td>
+                        <td>Performance</td>
+                    </tr>
+
+                    <tr>
+                        <th>EV Category</th>
+                        <td>⭐ Popular Choice</td>
+                        <td>⭐ Premium Choice</td>
+                        <td>⭐ Performance Choice</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+</section>
+
+<!-- Quick Comparison -->
+<section class="py-5">
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-4">Which EV is Right for You?</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100 text-center p-4">
+                    <i class="bi bi-car-front-fill text-warning fs-1"></i>
+                    <h4 class="mt-3">Tata Nexon EV</h4>
+                    <p class="text-muted">Best choice for practical daily driving and city use.</p>
+                    <span class="badge bg-warning text-dark">Daily Use</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100 text-center p-4">
+                    <i class="bi bi-stars text-warning fs-1"></i>
+                    <h4 class="mt-3">Hyundai Ioniq 5</h4>
+                    <p class="text-muted">Excellent option for comfort, technology and premium design.</p>
+                    <span class="badge bg-dark">Premium</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100 text-center p-4">
+                    <i class="bi bi-lightning-charge-fill text-warning fs-1"></i>
+                    <h4 class="mt-3">Tesla Model 3</h4>
+                    <p class="text-muted">Great choice for performance and long-range driving.</p>
+                    <span class="badge bg-danger">Performance</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="py-5 bg-dark text-white text-center">
+    <div class="container">
+        <h2 class="fw-bold">Ready to Go Electric?</h2>
+        <p class="text-light">Explore our EV models and discover the future of mobility.</p>
+        <a href="evmodels.html" class="btn btn-warning fw-bold px-4">
+            Explore EV Models →
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container py-5">
+
+        <div class="row g-4">
+
+            <div class="col-lg-4">
+                <h3>⚡ EVision</h3>
+                <p>
+                    Driving innovation towards a cleaner,
+                    smarter and sustainable electric future.
+                </p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+                <h5>Quick Links</h5>
+                <a href="index.html">Home</a>
+                <a href="evmodels.html">EV Models</a>
+                <a href="charging.html">Charging</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="col-lg-3">
+                <h5>EV Resources</h5>
+                <a href="compare.html">Compare EVs</a>
+                <a href="calculator.html">EV Calculator</a>
+                <a href="charging.html">Charging Guide</a>
+                <a href="#">EV Benefits</a>
+            </div>
+
+            <div class="col-lg-3">
+                <h5>Contact Us</h5>
+                <p><i class="bi bi-envelope text-warning"></i> info@evision.com</p>
+                <p><i class="bi bi-telephone text-warning"></i> +91 98765 43210</p>
+                <p><i class="bi bi-geo-alt text-warning"></i> Maharashtra, India</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="text-center mb-0">
+            © 2026 <strong>EVision</strong> | All Rights Reserved
+        </p>
+
+    </div>
+</footer>
+
+</body>
+</html>
